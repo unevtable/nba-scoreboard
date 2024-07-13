@@ -109,7 +109,7 @@ button:active {
 #new-game {
   width: calc(100% - 55px);
   font-size: 12px;
-  padding-top: 6px;
+  padding-top: 7px;
   padding-bottom: 6px;
   margin-left: 1px;
   margin-top: 8px;
