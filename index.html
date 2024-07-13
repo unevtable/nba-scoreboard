@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="body">
+    <div class="nba-container">
+      <img src="nba.png">
+    </div>
+    <img src="ice.gif">
+    <div class="container">
+      <div class="sections-container">
+        <div>
+          <div class="h3">LAKERS</div>
+          <div class="score-container">
+            <h2 class="score" id="home-score">0</h2>
+          </div>
+          <div id="btn-container">
+            <button onclick="plusHomeOne()">+1</button>
+            <button onclick="plusHomeTwo()">+2</button>
+            <button onclick="plusHomeThree()">+3</button>
+          </div>
+        </div>
+        <div>
+          <div class="h3">GUEST</div>
+          <div class="score-container" id="guest-score-container">
+            <h2 class="score" id="guest-score">0</h2>
+          </div>
+          <div id="btn-container">
+            <button onclick="plusGuestOne()">+1</button>
+            <button onclick="plusGuestTwo()">+2</button>
+            <button onclick="plusGuestThree()">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="misc-container">
+        <button id="new-game" onclick="newGame()">New Game</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
